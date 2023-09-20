@@ -12,7 +12,7 @@ const Register = () => {
     const handleSubmit = async(event) =>{
         event.preventDefault() ;
 
-        const {data} = await axios.post("http://localhost:5000/register" , {
+        const {data} = await axios.post("ttps://chap-api-zids.onrender.com/register" , {
             name , 
             password
         }) ;

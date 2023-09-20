@@ -12,7 +12,7 @@ export const Login = () => {
     const handleSubmit = async(event) =>{
         event.preventDefault() ;
 
-        const {data} = await axios.post("http://localhost:5000/login" , {
+        const {data} = await axios.post("ttps://chap-api-zids.onrender.com/login" , {
             name , 
             password
         }) ;
